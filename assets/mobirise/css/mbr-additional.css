@@ -3340,9 +3340,10 @@ body {
 }
 
 .cid-qG2UzLLaOK {
-  padding-top: 120px;
-  padding-bottom: 0px;
   background-color: #ffffff;
+  padding-top: 120px;
+  padding-bottom: 60px;
+  background-image: url(../../../assets/images/background-1-1920x1080.jpg);
 }
 
 .cid-qG2UzLLaOK .mbr-section-subtitle {
@@ -4878,10 +4879,79 @@ body {
 .carousel-control {
   display: none;
 }
-  #mixing .display-7,
-  #achievement .display-7 {
-  color:#333;
+
+#mixing .display-7,
+#achievement .display-7 {
+  color: #333;
 }
+
 .display-123 {
-  font-size:16px;
+  font-size: 16px;
+}
+
+.mbr-section-btn.buy-btn {
+  float: right;
+  margin-top: -61px;
+}
+
+.table>tbody>tr>td,
+.table>tfoot>tr>td {
+  vertical-align: middle;
+}
+
+@media screen and (max-width: 600px) {
+  table#cart tbody td .form-control {
+    width: 20%;
+    display: inline !important;
+  }
+  .actions .btn {
+    width: 36%;
+    margin: 1.5em 0;
+  }
+  .actions .btn-info {
+    float: left;
+  }
+  .actions .btn-danger {
+    float: right;
+  }
+  table#cart thead {
+    display: none;
+  }
+  table#cart tbody td {
+    display: block;
+    padding: .6rem;
+    min-width: 320px;
+  }
+  table#cart tbody tr td:first-child {
+    background: #333;
+    color: #fff;
+  }
+  table#cart tbody td:before {
+    content: attr(data-th);
+    font-weight: bold;
+    display: inline-block;
+    width: 8rem;
+  }
+  table#cart tfoot td {
+    display: block;
+  }
+  table#cart tfoot td .btn {
+    display: block;
+  }
+}
+
+.btn-checkout {
+  padding: 1rem 3rem;
+  white-space: nowrap;
+  margin-top: 62px;
+}
+#cart img {
+  max-width: 100%;
+}
+#cart.table {
+  background: #212529d9;
+  color:#fff;
+}
+#checkout {
+  background-image: url(../../../assets/images/background-1-1920x1080.jpg);
 }
